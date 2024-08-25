@@ -1,8 +1,11 @@
-FROM node:latest as node
-RUN mkdir -p /app
-WORKDIR /app
-COPY package*.json /app/
-RUN npm install 
-COPY . /app/
-EXPOSE 4200
-CMD ["npm", "run", "start"]
+# Use an official Nginx image as the base image
+FROM nginx:alpine
+
+# Copy website files to the Nginx web directory
+COPY . /usr/share/nginx/html
+
+# Expose port 80 to the outside world
+EXPOSE 80
+
+# Start Nginx server
+CMD ["nginx", "-g", "daemon off;"]
