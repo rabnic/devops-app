@@ -1,4 +1,3 @@
-Here's the updated `README.md` for setting up the Jenkins CI/CD Pipeline on an AWS Ubuntu distribution:
 
 ```markdown
 # Jenkins CI/CD Pipeline with Docker and GitHub on AWS Ubuntu
@@ -147,8 +146,3 @@ Run the Jenkins job and verify the successful execution of the pipeline.
 
 *Application is running, and whenever a developer commits changes to the GitHub repository, it will automatically get deployed to the application.*
 ```
-
-### Summary of Changes:
-- **Package Management**: Replaced `yum` with `apt` to reflect Ubuntu's package management system.
-- **Jenkins and Docker Installation**: Updated commands to match the Ubuntu environment.
-- **Java Installation**: Provided instructions for installing Java using `apt`.
