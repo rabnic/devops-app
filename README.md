@@ -142,7 +142,7 @@ To get started with this CI/CD pipeline, follow these steps:
    ```
 Run the Jenkins job and verify the successful execution of the pipeline.
 
-![Screenshot (11)](https://github.com/rabnic/devops-app/raw/main/screenshots/Screenshot%20(79).png)
+![Screenshot (11)](https://github.com/rabnic/devops-app/raw/static/screenshots/Screenshot%20(79).png)
 
 *Application is running, and whenever a developer commits changes to the GitHub repository, it will automatically get deployed to the application.*
 ```
